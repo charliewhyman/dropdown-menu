@@ -6,6 +6,32 @@ body {
   margin: 0px;
 }
 
-.menuItem {
+#dropdown {
+  margin: 1rem;
+  width: fit-content;
+  display: flex;
+  border: 1px grey solid;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+#dropdownText {
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  text-align: left;
+}
+
+#dropdownArrow {
+  padding: 0rem 0.5rem 0rem 0rem;
+}
+
+.dropdownItem {
   display: none;
+}
+
+.show {
+  display: block;
+}
+
+.menuItem {
+  display: flex;
 }

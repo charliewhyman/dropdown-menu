@@ -12,22 +12,19 @@
 </head>
 
 <body>
-<div class='navBar'>
-  <div class='navBarItem'>
-    <a href="#link1" class="active">Link 1</a>
-  </div>
-  <div class='navBarItem'>
-    <a href="#link2">Link 2</a>
-  </div>
-  <div id='dropdown'>
-    <button class='dropdownButton'>Dropdown</button>
-    <div class = 'dropdownContent'></div>
-      <div class='menuItem' id='menuItem1'>Menu Item 1</div>
-      <div class='menuItem' id='menuItem2'>Menu Item 2</div>
-      <div class='menuItem' id='menuItem3'>Menu Item 3</div>
-      <div class='menuItem' id='menuItem4'>Menu Item 4</div>
-      <div class='menuItem' id='menuItem5'>Menu Item 5</div>
-  </div>
+
+<div id='container'>
+  <div class='menuItem' id='dropdown'>
+    <p id="dropdownText">Click for more</p>
+    <p id='dropdownArrow' data-direction='right'>&#9654;</p>
+    </div>
+  <div class="subMenu">
+    <ul id='dropdownList'>
+      <li class='dropdownItem'>Item 1</li>
+      <li class='dropdownItem'>Item 2</li>
+      <li class='dropdownItem'>Item 3</li>
+      <li class='dropdownItem'>Item 4</li>
+    </ul>
 </div>
 
 <script src='js/script.js'></script>
